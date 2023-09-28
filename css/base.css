@@ -1,0 +1,27 @@
+* {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root{
+	--white: #FFFFFF;
+	--black: #000000;
+	--web: tomato;
+	--border: #cccccc;
+
+	--border2: #353535;
+	--white2: #c9bebe;
+}
+.web-col{
+	width: 900px;
+	margin: 0 auto;
+}
+.web-active{
+	color: var(--web);
+	transform: rotate(90deg);
+	transition: 0.8s;
+}
+.web_close{ display: none}
+.web_open{ display: block}
+@keyframes rotateElement {}
